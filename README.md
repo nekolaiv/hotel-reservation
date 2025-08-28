@@ -84,7 +84,7 @@ Got it 👍 — here’s a clean and professional **README section** you can dro
 
 This project was developed as part of a class activity by:
 
-* **\Valeros, Vladimir** 
-* **\Idulsa, Emman Nicholas** 
-* **\Amin, Ionyjal** 
-* **\Bakaun, Edris**
+* **Valeros, Vladimir** 
+* **Idulsa, Emman Nicholas** 
+* **Amin, Ionyjal** 
+* **Bakaun, Edris**
