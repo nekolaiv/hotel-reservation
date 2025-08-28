@@ -202,37 +202,6 @@ export default function AdminDashboard() {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="border-b bg-card/50 backdrop-blur-sm sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">H</span>
-              </div>
-              <span className="text-xl font-bold text-foreground">HotelLux Admin</span>
-            </div>
-            <div className="flex items-center space-x-4">
-              <Link href="/">
-                <Button variant="ghost" size="sm">
-                  View Site
-                </Button>
-              </Link>
-              <div className="flex items-center space-x-2">
-                <Avatar className="w-8 h-8">
-                  <AvatarImage src={mockAdmin.avatar || "/placeholder.svg"} alt={mockAdmin.name} />
-                  <AvatarFallback>SJ</AvatarFallback>
-                </Avatar>
-                <div className="text-sm">
-                  <div className="font-medium">{mockAdmin.name}</div>
-                  <div className="text-muted-foreground">{mockAdmin.role}</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
       <div className="container mx-auto px-4 py-6">
         <div className="flex flex-col lg:flex-row gap-6">
           {/* Sidebar */}

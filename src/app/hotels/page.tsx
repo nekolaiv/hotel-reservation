@@ -120,40 +120,6 @@ export default function HotelsPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="border-b bg-card/50 backdrop-blur-sm sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">H</span>
-              </div>
-              <span className="text-xl font-bold text-foreground">HotelLux</span>
-            </Link>
-            <nav className="hidden md:flex items-center space-x-8">
-              <Link href="/hotels" className="text-primary font-medium">
-                Hotels
-              </Link>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                Destinations
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                About
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                Contact
-              </a>
-            </nav>
-            <div className="flex items-center space-x-4">
-              <Button variant="ghost" size="sm">
-                Sign In
-              </Button>
-              <Button size="sm">Sign Up</Button>
-            </div>
-          </div>
-        </div>
-      </header>
-
       <div className="container mx-auto px-4 py-8">
         {/* Search and Filters */}
         <div className="mb-8">
