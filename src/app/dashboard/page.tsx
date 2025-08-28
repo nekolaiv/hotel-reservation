@@ -37,7 +37,7 @@ const mockBookings = [
     hotelName: "Grand Palace Hotel",
     hotelLocation: "Downtown Manhattan, New York",
     roomName: "Deluxe City View",
-    roomImage: "/placeholder.svg?height=150&width=200&text=Deluxe+Room",
+    roomImage: "/hotels/grand-palace.jpg",
     checkIn: "2024-03-15",
     checkOut: "2024-03-18",
     nights: 3,
@@ -51,7 +51,7 @@ const mockBookings = [
     hotelName: "Seaside Resort & Spa",
     hotelLocation: "Miami Beach, Florida",
     roomName: "Ocean View Suite",
-    roomImage: "/placeholder.svg?height=150&width=200&text=Ocean+Suite",
+    roomImage: "/hotels/miami-beach.jpg",
     checkIn: "2024-01-20",
     checkOut: "2024-01-25",
     nights: 5,
@@ -65,7 +65,7 @@ const mockBookings = [
     hotelName: "Mountain View Lodge",
     hotelLocation: "Aspen, Colorado",
     roomName: "Alpine Suite",
-    roomImage: "/placeholder.svg?height=150&width=200&text=Alpine+Suite",
+    roomImage: "/hotels/mountain-lodge.jpg",
     checkIn: "2024-02-01",
     checkOut: "2024-02-05",
     nights: 4,
@@ -110,34 +110,6 @@ export default function DashboardPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="border-b bg-card/50 backdrop-blur-sm sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">H</span>
-              </div>
-              <span className="text-xl font-bold text-foreground">HotelLux</span>
-            </Link>
-            <div className="flex items-center space-x-4">
-              <Link href="/hotels">
-                <Button variant="ghost" size="sm">
-                  Browse Hotels
-                </Button>
-              </Link>
-              <div className="flex items-center space-x-2">
-                <Avatar className="w-8 h-8">
-                  <AvatarImage src={mockUser.avatar || "/placeholder.svg"} alt={mockUser.name} />
-                  <AvatarFallback>JD</AvatarFallback>
-                </Avatar>
-                <span className="text-sm font-medium">{mockUser.name}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
       <div className="container mx-auto px-4 py-6">
         <div className="flex flex-col lg:flex-row gap-6">
           {/* Sidebar */}
