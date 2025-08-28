@@ -18,7 +18,7 @@ const mockBookingData = {
       hotelName: "Grand Palace Hotel",
       hotelLocation: "Downtown Manhattan, New York",
       roomName: "Deluxe City View",
-      roomImage: "/placeholder.svg?height=200&width=300&text=Deluxe+Room",
+      roomImage: "/hotels/grand-palace/dcv.jpg",
       price: 299,
       size: "350 sq ft",
       beds: "1 King Bed",

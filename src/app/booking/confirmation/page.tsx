@@ -17,7 +17,7 @@ const mockBookingData = {
       hotelAddress: "123 Fifth Avenue, New York, NY 10001",
       hotelPhone: "+1 (212) 555-0123",
       roomName: "Deluxe City View",
-      roomImage: "/placeholder.svg?height=200&width=300&text=Deluxe+Room",
+      roomImage: "/hotels/grand-palace/dcv.jpg",
       price: 299,
       size: "350 sq ft",
       beds: "1 King Bed",

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 "use client"
 
@@ -64,7 +65,7 @@ export default function HotelLandingPage() {
               <span className="text-xl font-bold text-foreground">HotelLux</span>
             </div>
             <nav className="hidden md:flex items-center space-x-8">
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+              <a href="/hotels" className="text-muted-foreground hover:text-foreground transition-colors">
                 Hotels
               </a>
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
