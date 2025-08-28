@@ -22,7 +22,7 @@ export default function HotelLandingPage() {
       id: 1,
       name: "Grand Palace Hotel",
       location: "Downtown Manhattan",
-      image: "/placeholder-6d9x5.png",
+      image: "/hotels/grand-palace.jpg",
       rating: 4.8,
       price: 299,
       amenities: ["WiFi", "Pool", "Spa", "Gym"],
@@ -31,8 +31,7 @@ export default function HotelLandingPage() {
       id: 2,
       name: "Seaside Resort & Spa",
       location: "Miami Beach",
-      image: "/placeholder-eska4.png",
-      rating: 4.9,
+      image: "/hotels/miami-beach.jpg",
       price: 399,
       amenities: ["Beach", "WiFi", "Restaurant", "Spa"],
     },
@@ -40,7 +39,7 @@ export default function HotelLandingPage() {
       id: 3,
       name: "Mountain View Lodge",
       location: "Aspen, Colorado",
-      image: "/placeholder-ka332.png",
+      image: "/hotels/mountain-lodge.jpg",
       rating: 4.7,
       price: 249,
       amenities: ["Ski Access", "Fireplace", "WiFi", "Restaurant"],
@@ -59,7 +58,7 @@ export default function HotelLandingPage() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/placeholder-au8wr.png')",
+            backgroundImage: "url('/hotels/main2.jpg')",
           }}
         >
           <div className="absolute inset-0 bg-black/40"></div>
@@ -68,7 +67,7 @@ export default function HotelLandingPage() {
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance">
             Discover Your Perfect
-            <span className="text-accent block">Hotel Experience</span>
+            <span className="text-yellow-300 block">Hotel Experience</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-pretty opacity-90">
             Luxury accommodations, exceptional service, unforgettable memories
@@ -258,7 +257,7 @@ export default function HotelLandingPage() {
                 <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
                   <span className="text-accent-foreground font-bold text-sm">H</span>
                 </div>
-                <span className="text-xl font-bold">HotelLux</span>
+                <span className="text-xl font-bold">LuxStay</span>
               </div>
               <p className="text-primary-foreground/80 text-pretty">
                 Your gateway to exceptional hotel experiences worldwide.
