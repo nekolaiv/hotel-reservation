@@ -74,3 +74,17 @@ Then open [http://localhost:3000](http://localhost:3000) to view the prototype i
 This project is **for educational purposes only** as part of a class activity.
 It is **not open source** and **not intended for production use**.
 All features are **mocked frontend representations** of an existing idea.
+
+
+Got it 👍 — here’s a clean and professional **README section** you can drop into your file to acknowledge your group members:
+
+---
+
+## 👥 Project Team
+
+This project was developed as part of a class activity by:
+
+* **\Valeros, Vladimir** 
+* **\Idulsa, Emman Nicholas** 
+* **\Amin, Ionyjal** 
+* **\Bakaun, Edris**
