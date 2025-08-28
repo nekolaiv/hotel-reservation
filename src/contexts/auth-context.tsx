@@ -3,6 +3,7 @@
 import type React from "react"
 import { createContext, useContext, useEffect, useState } from "react"
 import { type User, getUserFromStorage, saveUserToStorage, removeUserFromStorage, authenticateUser } from "@/lib/auth"
+import { useRouter } from "next/navigation";
 
 interface AuthContextType {
   user: User | null
@@ -18,6 +19,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined)
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null)
   const [isLoading, setIsLoading] = useState(true)
+  const router = useRouter();
 
   useEffect(() => {
     // Load user from localStorage on mount
@@ -48,6 +50,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const logout = () => {
     setUser(null)
     removeUserFromStorage()
+    router.push("/");
   }
 
   const value: AuthContextType = {
