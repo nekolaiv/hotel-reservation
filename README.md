@@ -75,9 +75,6 @@ This project is **for educational purposes only** as part of a class activity.
 It is **not open source** and **not intended for production use**.
 All features are **mocked frontend representations** of an existing idea.
 
-
-Got it 👍 — here’s a clean and professional **README section** you can drop into your file to acknowledge your group members:
-
 ---
 
 ## 👥 Project Team
