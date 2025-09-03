@@ -30,6 +30,46 @@ The Hotel Reservation System prototype provides a modern, responsive UI for simu
 
 ---
 
+## 📸 Feature Showcase
+
+### 1. Dashboard
+The central hub displaying hotel performance, quick stats, and shortcuts to main features.  
+![Dashboard](./public/core-ui/dashboard.png)
+
+---
+
+### 2. Booking
+Easily manage reservations with check-in/out details, room allocation, and booking status.  
+![Booking](./public/core-ui/booking.png)
+
+---
+
+### 3. Rooms
+View and manage available rooms, their types, capacities, and pricing.  
+![Rooms](./public/core-ui/rooms.png)
+
+---
+
+### 4. Guest
+Register guests and maintain records including personal information and booking history.  
+![Guest](./public/core-ui/guest.png)
+
+---
+
+### 5. Reports
+Generate operational reports such as revenue, occupancy rates, and guest activity.  
+![Reports](./public/core-ui/reports.png)
+
+---
+
+### 6. Settings
+Configure system preferences including staff management, hotel information, and booking rules.  
+![Settings](./public/core-ui/settings.png)
+
+
+
+---
+
 ## ⚙️ Tech Stack
 
 * **Framework**: [Next.js 14 (App Router)](https://nextjs.org/)
